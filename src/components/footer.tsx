@@ -12,7 +12,7 @@ const Footer = () => {
       <Row>
         <Col lg={8} className="text-bold footer-credits">
           <p>
-            Designed and Developed by Shahzada Fahad 🤙🏼 2020
+            2020 🤙🏼
           </p>
         </Col>
         <Col lg={4} className="mb-2">
@@ -27,7 +27,7 @@ const Footer = () => {
       </Row>
       <Row>
         <Col className="text-center">
-          <a href="https://github.com/fahadachaudhry/portfolio" target="_blank" className="rounded d-inline-block m-0 p-1 footer-version" rel="noreferrer">
+          <a href="https://github.com/" target="_blank" className="rounded d-inline-block m-0 p-1 footer-version" rel="noreferrer">
             <h4 className="d-inline-block pr-2">
               <GrGithub />
             </h4>

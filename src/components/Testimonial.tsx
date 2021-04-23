@@ -1,4 +1,4 @@
-/* eslint-disable no-use-before-define */
+/* eslint-disable */
 import React from 'react';
 import {
   Carousel,
@@ -10,23 +10,23 @@ import getProfileData, { IStudent } from '../data/data';
 
 const Testimonial = () => {
   const profileData = getProfileData();
-  return (
-    <div className="testimonial p-3 shadow-lg">
-      <h4 className="text-center pb-5 testimonial-heading text-light font-weight-bold">Students Taught (25+)</h4>
-      <Carousel
-        prevIcon={<RiArrowLeftSLine />}
-        nextIcon={<RiArrowRightSLine />}
-      >
-        {
-          profileData.students?.map((item) => (
-            <Carousel.Item>
-              <TestimonialCard name={item.name} quote={item.quote} avatar={item.avatar} />
-            </Carousel.Item>
-          ))
-        }
-      </Carousel>
-    </div>
-  );
+  return (<div></div>)
+      {/* <div className="testimonial p-3 shadow-lg">
+      {/*<h4 className="text-center pb-5 testimonial-heading text-light font-weight-bold">Projects Completed(25+)</h4>*/}
+      {/*/!*<Carousel*!/*/}
+      {/*  prevIcon={<RiArrowLeftSLine />}*/}
+      {/*  nextIcon={<RiArrowRightSLine />}*/}
+      {/*>*/}
+      {/*  {*/}
+      {/*    profileData.students?.map((item) => (*/}
+      {/*      <Carousel.Item>*/}
+      {/*        <TestimonialCard name={item.name} quote={item.quote} avatar={item.avatar} />*/}
+      {/*      </Carousel.Item>*/}
+      {/*    ))*/}
+      {/*  }*/}
+      {/*</Carousel>
+    // </div>*/}
+  // );
 };
 
 const TestimonialCard = (props:IStudent) => {
