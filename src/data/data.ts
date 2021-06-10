@@ -194,13 +194,6 @@ const profile : IProfile = {
       tags: ['Ruby', 'Rails', 'Javascript', 'Bootstrap', 'CSS'],
     },
     {
-      name: 'Pandia Health | Ruby on Rails Web Application',
-      companyName: 'Viral Square Development',
-      url: 'https://www.pandiahealth.com/',
-      description: ['Pandia Health is an USA based clinic, which provides online consultancy and services related to Birth Control and Acne Control.'],
-      tags: ['Ruby', 'Rails', 'Javascript', 'Bootstrap', 'CSS'],
-    },
-    {
       name: 'WarmLofts Insulation | Ruby on Rails Web Application',
       companyName: 'Warm Lofts Insulation, UK',
       url: 'https://warmloftsinsulation.co.uk/',
