@@ -68,7 +68,7 @@ export interface IProfile{
 
 const profile : IProfile = {
   name: 'Muhammad Adnan Mustafa',
-  intro: 'Pro Bono Programming Career Consultant and Full Stack Developer',
+  intro: 'Ruby On Rails Full Stack Developer, Contact: +92 315 386 7744',
   students: [
     {
       name: 'UrRong',
@@ -119,18 +119,18 @@ const profile : IProfile = {
   bio: ['I`m a Results-oriented Ruby on Rails Developer, with 2+ years of work experience. Aiming to leverage academic experience and a proven knowledge of web development, programming, and application development to successfully fill the Software Developer role at your company. Frequently praised as adaptable by my peers, I can be relied upon to help your company achieve its goals.',
     'My interests range from Ruby on Rails development to full stack Web Development.'],
   skills: {
-    languages: ['Ruby', 'C#', 'Python', 'Javascript', 'HTML', 'CSS/Sass', 'SQL'],
-    frameworks: ['Rails', 'Django', 'React', '.NET'],
-    tools: ['Git', 'Postman', 'Chrome DevTools', 'Trello'],
-    design: ['Figma'],
+    languages: ['Ruby', 'CoffeeScript', 'Javascript', 'HTML', 'CSS/Sass', 'SQL'],
+    frameworks: ['Rails', 'React'],
+    tools: ['Git', 'Postman', 'Chrome DevTools', 'Trello', 'Jira'],
+    design: ['Figma', 'Adobe'],
     devtools: ['RubyMine', 'VSCode', 'Visual Studio', 'Atom'],
   },
   experiences: [
     {
       companyName: 'Viral Square',
       endDate: 'Currently Working here',
-      position: 'Senior Software Engineer',
-      startDate: '2020-08-17',
+      position: 'Software Engineer',
+      startDate: '2020-07-17',
       summary: 'Viral Square is a software development company with a legacy of adding value to progressive businesses through optimized digital transformations and tailored software solutions. Their main expertise are Web Development, Mobile Application Development, UI/UX development',
       website: 'https://www.linkedin.com/company/viral-square/',
     },
@@ -143,7 +143,7 @@ const profile : IProfile = {
       website: 'https://www.linkedin.com/company/alchemative',
     },
     {
-      companyName: 'Plan9 - PITB\'s Tech Incubator',
+      companyName: 'Aabshar - Plan9 - PITB\'s Tech Incubator',
       endDate: '2020-06-05',
       position: 'Web Developer',
       startDate: '2019-11-6',
